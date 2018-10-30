@@ -13,6 +13,6 @@ public class ExplicitActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         TextView textView = (TextView)findViewById(R.id.singleName);
-        textView.setText(bundle.getString("SingleName","No Data"));
+        textView.setText("SingleName:   "+bundle.getString("SingleName","No Data"));
     }
 }
