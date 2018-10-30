@@ -12,7 +12,9 @@ public class ExplicitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_explicit);
 
         Bundle bundle = getIntent().getExtras();
-        TextView textView = (TextView)findViewById(R.id.singleName);
-        textView.setText("SingleName:   "+bundle.getString("SingleName","No Data"));
+        TextView textViewName = (TextView)findViewById(R.id.Name);
+        textViewName.setText("Name:   "+bundle.getString("Name","No Data"));
+        TextView textViewAge = (TextView)findViewById(R.id.Age);
+        textViewAge.setText("Age:    "+bundle.getString("Age","No Data"));
     }
 }

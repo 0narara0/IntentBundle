@@ -27,10 +27,17 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/singleName"
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="TextView"
             android:textSize="18sp" />
     </LinearLayout>

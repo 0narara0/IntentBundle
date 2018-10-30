@@ -23,8 +23,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         EditText editTextName = findViewById(R.id.editTextName);
         String editTextNameString = editTextName.getText().toString();
+        EditText editTextAge = findViewById(R.id.editTextAge);
+        String editTextAgeString = editTextAge.getText().toString();
         Bundle bundle = new Bundle();
-        bundle.putString("SingleName",editTextNameString);
+        bundle.putString("Name",editTextNameString);
+        bundle.putString("Age",editTextAgeString);
         Intent intent = new Intent(this, ExplicitActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
