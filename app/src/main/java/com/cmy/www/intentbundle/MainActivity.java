@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Bundle bundle = new Bundle();
         bundle.putString("Name",editTextNameString);
         bundle.putString("Age",editTextAgeString);
+        //위에를 넣지 않아야 no data가 뜬다.
         Intent intent = new Intent(this, ExplicitActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
