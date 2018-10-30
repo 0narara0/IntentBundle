@@ -24,6 +24,22 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Explicit Intent(Request)" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="이름을 입력하세요."/>
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="나이를 입력하세요."/>
         </LinearLayout>
 
 
