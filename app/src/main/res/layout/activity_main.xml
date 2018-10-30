@@ -18,12 +18,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/button"
+
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Explicit Intent(Request)" />
+                android:text="First Activity"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp" />
 
             <EditText
                 android:id="@+id/editTextName"
@@ -40,6 +43,13 @@
                 android:ems="10"
                 android:inputType="number"
                 android:hint="나이를 입력하세요."/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="FirstButton" />
         </LinearLayout>
 
 
